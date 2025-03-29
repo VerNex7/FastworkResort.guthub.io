@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "ShareTech";
+  src: url("Fonts/ShareTechMonoRegular_0.otf");
+}
+
+body {
+  margin: 0;
+  background-image: url(Photos/Рассвет.jpg);
+  background-repeat: no-repeat;
+}
+
+.Header {
+  background-color: #fe7b3b;
+  min-height: 13vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+a {
+  font-size: 3vh;
+  color: white;
+  text-decoration: none;
+  font-family: "ShareTech";
+  transition: all 0.5s ease 0s;
+  padding: 10px;
+  background-color: #fe7b3b;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #ffa070;
+  font-size: 4vh;
+  scale: 1.1;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.BG {
+  display: flex;
+  min-height: 87vh;
+  align-items: center;
+  font-size: 3vh;
+  font-family: "ShareTech";
+  text-align: center;
+  justify-content: center;
+}
+
+#Info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-family: "ShareTech";
+  font-size: 5vh;
+  padding: 2vh;
+}
+
+#Main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #3bbefe;
+  font-family: "ShareTech";
+  font-size: 5vh;
+  padding: 2vh;
+}
+
+img {
+  max-height: 30vh;
+  max-width: 40vh;
+  transition: all 0.5s ease 0s;
+}
+
+img:hover {
+  scale: 1.1;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.p1 {
+  color: white;
+}
+
+.t1 {
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  align-content: center;
+  justify-content: center;
+  font-size: 4vh;
+  text-indent: 4vh;
+}
+.t1 p {
+  margin-left: 2vh;
+}
+
+.t2 p,
+.t3 p,
+.t4 p,
+.t5 p,
+.t6 p {
+  align-content: center;
+  justify-content: center;
+  color: white;
+  font-size: 4vh;
+  text-indent: 4vh;
+}
+
+.t2,
+.t3,
+.t4,
+.t5,
+.t6 {
+  display: flex;
+  gap: 2vh;
+  background-color: #3bbefe;
+  align-items: center;
+  border: 3vh solid #3bbefe;
+}
+
+.Footer {
+  min-height: 10vh;
+  background-color: black;
+  font-family: "ShareTech";
+  color: #060606;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1100px) {
+  .BG {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  a {
+    font-size: 2.5vh;
+  }
+
+  .t1,
+  .t2,
+  .t3,
+  .t4,
+  .t5,
+  .t6 {
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+  }
+}
